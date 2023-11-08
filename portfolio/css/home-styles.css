@@ -1,0 +1,61 @@
+.main-descriptive-section{
+    gap: 1.5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    max-width: 28rem;
+}
+
+h1{
+    letter-spacing: -0.025em;
+    font-weight: 700;
+    font-size: 3.75rem;
+    margin: 0;
+    color: #333;
+}
+
+.red-text{
+    color: #D02030;
+}
+
+.description{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #444;
+    font-weight: 400;
+}
+
+.flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.learn-more-btn{
+    border-radius: 0.25rem;
+    background-color: #182857;
+    text-transform: uppercase;
+    color: white;
+    font-size: 1rem;
+    padding: 0.75rem 0.5rem;
+    border: none;
+    outline: none;
+}
+
+.projects-btn{
+    border-radius: 0.25rem;
+    background-color: transparent;
+    text-transform: uppercase;
+    color: #D02030;
+    font-size: 1rem;
+    padding: 0.75rem 0.5rem;
+    border: 1px solid #D02030;
+    outline: none;
+}
+
+.social-media-icon{
+    width: 1.5rem;
+    height: 1.5rem;
+}
